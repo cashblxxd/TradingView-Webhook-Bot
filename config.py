@@ -11,12 +11,10 @@
 
 from pdconfig import settings
 
-sec_key = (
-    ""  # Can be anything. Has to match with "key" in your TradingView alert message
-)
+sec_key = settings.KEY
 
 # Telegram Settings
-send_telegram_alerts = True
+send_telegram_alerts = settings.TG_ENABLED
 tg_token = settings.TOKEN  # Bot token. Get it from @Botfather
 channel = settings.CHAT_ID  # Channel ID (ex. -1001487568087)
 
