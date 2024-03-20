@@ -21,6 +21,8 @@ pycodestyle==2.7.0
 pyflakes==2.3.1
 PySocks==1.7.1
 python-telegram-bot==13.6
+pydantic==2.6.4
+pydantic-settings==2.2.1
 pytz==2021.1
 regex==2021.4.4
 requests==2.25.1
